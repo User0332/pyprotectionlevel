@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "protectionlevel"
+version = "0.0.1"
+description = "Access modifier support for Python"
+readme = "README.md"
+authors = [{ name = "Carl Furtado", email = "carlzfurtado@gmail.com" }]
+license = { file = "LICENSE" }
+keywords = [
+	"public",
+    "private",
+    "protected",
+	"internal",
+	"protection",
+	"protection level",
+	"attribute",
+	"access",
+	"access modifier"
+]
+requires-python = ">= 3.9"
+
+[project.urls]
+Homepage = "https://github.com/User0332/pyprotectionlevel"
+
+[tool.setuptools]
+packages = ["protectionlevel"]
